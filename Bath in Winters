@@ -1,0 +1,8 @@
+t = int(input())
+for i in range(t):
+    x,y = map(int, input().split())
+    a = 2*y
+    if(a>x):
+        print(0)
+    else:
+        print(int(x/a))
